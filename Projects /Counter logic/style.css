@@ -1,0 +1,14 @@
+*{
+  user-select: none;
+}
+body {
+  text-align: center;
+  font-size: 50px;
+}
+
+button {
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  align-items: center;
+}
