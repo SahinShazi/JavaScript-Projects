@@ -1,5 +1,7 @@
 *{
   user-select: none;
+  font-family: sans-serif;
+  color: black;
 }
 body {
   text-align: center;
