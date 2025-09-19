@@ -1,9 +1,5 @@
 # My Projects
 
-A collection of personal programming projects showcasing various technologies, programming languages, and development skills.
-
-## 🎯 About
-
 This repository contains my personal collection of HTML, CSS, and JavaScript projects.
 Each project is built as part of my learning journey and practice in front-end web development.
 
@@ -12,6 +8,7 @@ Each project is built as part of my learning journey and practice in front-end w
 ### Programming Languages
 - JavaScript
 - HTML/CSS
+
 ### Tools & Platforms
 - Git & GitHub
 - VS Code
