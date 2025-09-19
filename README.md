@@ -2,17 +2,6 @@
 
 A collection of personal programming projects showcasing various technologies, programming languages, and development skills.
 
-## 📋 Table of Contents
-
-- [About](#about)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## 🎯 About
 
 This repository contains my personal collection of HTML, CSS, and JavaScript projects.
