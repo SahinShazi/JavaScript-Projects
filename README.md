@@ -55,17 +55,6 @@ Before running these projects, make sure you have the following installed:
 3. **Follow project-specific instructions**
    Each project folder contains its own README with detailed setup instructions.
 
-## ⚙️ Installation
-
-## 📖 Usage
-
-Each project in this repository serves different purposes:
-
-1. **For Learning**: Study the code to understand different programming concepts and patterns
-2. **For Reference**: Use as templates or starting points for your own projects
-3. **For Contribution**: Feel free to suggest improvements or report issues
-4. **For Demonstration**: Showcase programming skills and problem-solving abilities
-
 ### Running Individual Projects
 
 Navigate to any project directory and follow these general steps:
