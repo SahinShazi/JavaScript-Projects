@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #1d2b64, #f8cdda);
+      font-family: "Poppins", sans-serif;
+    }
+
+    .clock-container {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 30px 50px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .time {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .date {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+  <div class="clock-container">
+    <div id="clock" class="time">00:00:00</div>
+    <div id="date" class="date">Loading...</div>
+  </div>
+
+  <script>
+    function runningClock() {
+      const now = new Date();
+
+      // Time format (12hr + AM/PM)
+      let hours = now.getHours();
+      let minutes = now.getMinutes().toString().padStart(2, "0");
+      let seconds = now.getSeconds().toString().padStart(2, "0");
+
+      let ampm = hours >= 12 ? "PM" : "AM";
+      hours = hours % 12;
+      hours = hours ? hours : 12; 
+      hours = hours.toString().padStart(2, "0");
+
+      const timeString = `${hours}:${minutes}:${seconds} ${ampm}`;
+      document.getElementById("clock").innerText = timeString;
+
+      // Date + Day
+      const options = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+      const dateString = now.toLocaleDateString("en-US", options);
+      document.getElementById("date").innerText = dateString;
+    }
+
+    setInterval(runningClock, 1000);
+    runningClock();
+  </script>
+</body>
+</html>
