@@ -28,17 +28,11 @@ body {
   font-size: 3rem;
   border: none;
   background: linear-gradient(145deg, #e8e8e8, #f0f0f0);
-  border-radius: 12px;
-  box-shadow: 
-    inset 3px 3px 8px rgba(0, 0, 0, 0.1),
-    inset -3px -3px 8px rgba(255, 255, 255, 0.8);
-  color: #2d2d2d;
-  font-weight: 400;
+  font-weight: 500;
   min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  transition: all 0.3s ease;
   overflow: hidden;
   word-wrap: break-word;
   word-break: break-all;
@@ -80,22 +74,6 @@ button {
 /* Button Types */
 .operator-btn {
   background: linear-gradient(145deg, #068053, #056942);
-}
-
-.clear-btn {
-  background: linear-gradient(145deg, #d32f2f, #b71c1c);
-}
-
-.calc-btn {
-  background: linear-gradient(145deg, #1976d2, #0d47a1);
-  grid-row: span 2;
-  aspect-ratio: auto;
-}
-
-/* Zero button spans 2 columns */
-button:nth-last-child(2) {
-  grid-column: span 2;
-  aspect-ratio: auto;
 }
 
 /* Responsive Design */
