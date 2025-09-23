@@ -1,4 +1,4 @@
-# My Projects
+# JavaScript Projects
 
 This repository contains my personal collection of HTML, CSS, and JavaScript projects.
 Each project is built as part of my learning journey and practice in front-end web development.
