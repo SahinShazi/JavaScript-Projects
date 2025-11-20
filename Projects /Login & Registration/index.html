@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strong Password Indicator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--https://boxicons.com/ -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="form_Container">
+        <h2 class="title">Sign Up</h2>
+        <div class="underline"></div>
+        <form>
+          <div class="input_field_box">
+            <div class="input_field input_name">
+              <i class="fa-regular fa-user"></i>
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input_field">
+              <i class="fa-solid fa-at"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input_field">
+              <i class="fa-solid fa-key"></i>
+              <input
+                class="input_pass"
+                type="password"
+                placeholder="Password"
+              />
+              <i class="fa-regular fa-eye-slash"></i>
+            </div>
+            <p>
+              <span class="text">Password Suggestions?</span>
+              <a href="#"> Click Here!</a>
+            </p>
+          </div>
+
+          <div class="btnbox">
+            <button class="signup_Btn" type="button">Sign Up</button>
+            <button class="signin_Btn btnInactive" type="button">
+              Sign In
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
