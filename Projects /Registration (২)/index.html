@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strong Password Indicator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--https://fontawesome.com -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!--https://boxicons.com/ -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="form_container">
+        <div class="switchbtn_box">
+          <div id="switch_effect"></div>
+          <button class="toggle_button" onclick="login()">Login</button>
+          <button class="toggle_button" onclick="register()">Register</button>
+        </div>
+
+        <div class="social_icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+
+        <form class="input_group" id="login_form">
+          <input
+            type="text"
+            class="input_field"
+            placeholder="User ID"
+            required
+          />
+          <input
+            type="password"
+            class="input_field"
+            placeholder="Password"
+            required
+          />
+
+          <input type="checkbox" class="check_box" />
+          <span>Remeember Password</span>
+          <button type="submit" class="submit_btn">Login</button>
+        </form>
+
+        <form class="input_group" id="register_form">
+          <input
+            type="text"
+            class="input_field"
+            placeholder="User ID"
+            required
+          />
+          <input
+            type="email"
+            class="input_field"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="password"
+            class="input_field"
+            placeholder="Password"
+            required
+          />
+
+          <div class="checkbox_text">
+            <input type="checkbox" class="check_box" />
+            <span>I agree to the Terms & Condition</span>
+          </div>
+          <button type="submit" class="submit_btn">Register</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
